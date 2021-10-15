@@ -53,7 +53,7 @@ export default function Home() {
         </section>
         <section>
           <div className="inner">
-            <h2 className="title">What's an alcoholic drink?</h2>
+            <h2 className="title">What is a drink?</h2>
             <p>
               A pint of average strength beer, a mediumish glass of wine, a
               normal sized cocktail. Don't take the piss.
