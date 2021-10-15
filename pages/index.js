@@ -6,18 +6,24 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Next.js Starter!</title>
+        <title>6/7</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         <section style={{ backgroundColor: '#222', color: '#fff' }}>
           <div className="inner">
-            <h2 className="title">🍸 6/7</h2>
+            <h2 className="title">
+              <img
+                src="/martini.svg"
+                alt="🍸"
+                style={{ width: 17, marginBottom: -3, marginRight: 4 }}
+              />{' '}
+              6/7
+            </h2>
             <p>
-              A strategy for limited alcohol consumption. 6/7 followers{' '}
-              <strong style={{ textDecoration: 'underline' }}>never</strong>{' '}
-              consume more than six drinks per seven days.
+              A limited alcohol lifestyle. Followers of 6/7 never consume more
+              than six drinks per seven days.
             </p>
           </div>
         </section>
