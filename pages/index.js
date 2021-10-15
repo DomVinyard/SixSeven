@@ -1,6 +1,4 @@
 import Head from 'next/head';
-import Header from '@components/Header';
-import Footer from '@components/Footer';
 
 export const AppStores = ({ width = 140, isBottom }) => {
   return (
@@ -38,7 +36,11 @@ export default function Home() {
               <img
                 src="/martini.svg"
                 alt="🍸"
-                style={{ width: 17, marginBottom: -3, marginRight: 4 }}
+                style={{
+                  width: 17,
+                  marginBottom: -3,
+                  marginRight: 4,
+                }}
               />{' '}
               6/7
             </h1>
