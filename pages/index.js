@@ -1,6 +1,6 @@
-import Head from 'next/head'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
+import Head from 'next/head';
+import Header from '@components/Header';
+import Footer from '@components/Footer';
 
 export default function Home() {
   return (
@@ -11,13 +11,26 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
-        <p className="description">
-          Get started by editing <code>pages/index.js</code>
-        </p>
+        <section style={{ backgroundColor: '#222', color: '#fff' }}>
+          <div className="inner">
+            <h2 className="title">🍸 6/7</h2>
+            <p>
+              A strategy for limited alcohol consumption. 6/7 followers{' '}
+              <strong style={{ textDecoration: 'underline' }}>never</strong>{' '}
+              consume more than six drinks per seven days.
+            </p>
+          </div>
+        </section>
+        <section>
+          <div className="inner">
+            <h2 className="title">What is a drink?</h2>
+            <p>
+              A pint of average strength beer, a mediumish glass of wine, a
+              normal sized cocktail. Don't take the piss.
+            </p>
+          </div>
+        </section>
       </main>
-
-      <Footer />
     </div>
-  )
+  );
 }
