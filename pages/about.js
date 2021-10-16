@@ -22,7 +22,7 @@ export default function Home() {
             </p>
             <p>
               The app is really simple to use. It will start at six and count
-              down every with each drink until you reach zero. Every Thursday
+              down with each drink until you reach zero. Every Thursday
               afternoon it will reset back to six.
             </p>
             <p>
