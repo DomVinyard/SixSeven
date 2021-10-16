@@ -35,7 +35,7 @@ export default function Home() {
             </p>
             <p>
               The app is intentionally quite expensive (£10), the financial
-              commitment is designed to help you stick with the program.{' '}
+              commitment is designed to help you stick with it.{' '}
               <strong>Half the profits go to addiction charities.</strong>
             </p>
             <AppStoreIcons />
