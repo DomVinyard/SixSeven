@@ -56,7 +56,20 @@ section {
   margin-top: -10vh;
 }
 
+.about-inner {
+  width: 500px;
+  max-width: 90%;
+  margin: 0 auto;
+  margin-top: 10vh;
+}
+
 p {
   font-size: 1.2rem;
   line-height: 1.7rem;
+}
+
+a {
+  font-size: 1.2rem;
+  color: rgb(0, 155, 245);
+  text-decoration: none;
 }

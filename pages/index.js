@@ -1,25 +1,6 @@
 import Head from 'next/head';
-
-export const AppStores = ({ width = 140, isBottom }) => {
-  return (
-    <div style={{ display: 'flex', flexDirection: 'row', marginTop: 24 }}>
-      <a href={'about:blank'} target="_blank">
-        <img
-          alt="App Store"
-          style={{ width, marginRight: 8 }}
-          src="/apple_store.png"
-        />
-      </a>
-      <a href={'about:blank'} target="_blank">
-        <img
-          alt="Google Play Store"
-          style={{ width }}
-          src="/google_store.png"
-        />
-      </a>
-    </div>
-  );
-};
+import AppStoreIcons from '../components/AppStoreIcons';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -50,7 +31,7 @@ export default function Home() {
               A limited alcohol lifestyle. Followers of <strong>6/7</strong>{' '}
               never consume more than six alcoholic drinks per seven days.
             </p>
-            <AppStores />
+            <AppStoreIcons />
           </div>
         </section>
         <section>
@@ -60,7 +41,7 @@ export default function Home() {
               A pint of average strength beer, a mediumish glass of wine, a
               normal sized cocktail. Don't take the piss.
             </p>
-            <AppStores />
+            <Link href="/about">Tell me more →</Link>
           </div>
         </section>
       </main>
