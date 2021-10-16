@@ -23,7 +23,7 @@ export default function Home() {
         >
           <div className="inner">
             <Link href="/">← Back</Link>
-            <h2>Moderation</h2>
+            <h2>Tell me more</h2>
             <p>
               6/7 is a community of limited drinkers. We find six drinks per
               week to be a good limit in places where alcohol is an important
