@@ -24,10 +24,10 @@ export default function Home() {
           <div className="inner">
             <Link href="/">← Back</Link>
             <p>
-              6/7 is a community of limited drinkers. We find six to be a good
-              weekly limit in places where social drinking is an imporant part
-              of cultural life. If you have a drinking problem then this is not
-              the program for you. Seek professional support.
+              6/7 is a community of limited drinkers. We find six drinks per
+              week to be a good limit in places where social drinking is an
+              important part of cultural life. If you have a drinking problem
+              then this is not the program for you. Seek professional support.
             </p>
             <p>
               The app is really simple to use. It will start at six and count
