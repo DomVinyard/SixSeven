@@ -11,18 +11,26 @@ export default function Home() {
       </Head>
 
       <main>
-        <div style={{ backgroundColor: '#fff', color: '#222' }}>
-          <div className="about-inner">
+        <div
+          style={{
+            backgroundColor: '#fff',
+            color: '#222',
+            minHeight: '100vh',
+            display: 'flex',
+            alignItems: 'center',
+          }}
+        >
+          <div className="inner">
             <Link href="/">← Back</Link>
             <p>
-              6/7 is a community of limited drinkers. We find six to be a good
+              6/7 is a community of limited drinkers. We find six is a good
               weekly limit in places where social drinking is an imporant part
               of cultural life. If you have a drinking problem then this is not
               the program for you. Seek professional support.
             </p>
             <p>
               The app is really simple to use. It will start at six and count
-              down with each drink until you reach zero. Every Thursday
+              down with each drink until it reaches zero. Every Thursday
               afternoon it will reset back to six.
             </p>
             <p>
