@@ -18,6 +18,7 @@ export default function Home() {
             minHeight: '100vh',
             display: 'flex',
             alignItems: 'center',
+            maxWidth: '100%',
           }}
         >
           <div className="inner">
