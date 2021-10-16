@@ -23,7 +23,7 @@ export default function Home() {
           <div className="inner">
             <Link href="/">← Back</Link>
             <p>
-              6/7 is a community of limited drinkers. We find six is a good
+              6/7 is a community of limited drinkers. We find six to be a good
               weekly limit in places where social drinking is an imporant part
               of cultural life. If you have a drinking problem then this is not
               the program for you. Seek professional support.
