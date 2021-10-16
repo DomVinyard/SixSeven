@@ -37,7 +37,7 @@ export default function Home() {
                 src="/martini.svg"
                 alt="🍸"
                 style={{
-                  width: 17,
+                  width: 28,
                   marginBottom: -3,
                   marginRight: 4,
                 }}
