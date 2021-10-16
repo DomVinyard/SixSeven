@@ -2,7 +2,7 @@ import Head from 'next/head';
 
 export const AppStores = ({ width = 140, isBottom }) => {
   return (
-    <div style={{ display: 'flex', flexDirection: 'row' }}>
+    <div style={{ display: 'flex', flexDirection: 'row', marginTop: 24 }}>
       <a href={'about:blank'} target="_blank">
         <img
           alt="App Store"
@@ -42,18 +42,20 @@ export default function Home() {
                   marginRight: 4,
                 }}
               />{' '}
-              6/7
+              <span>6</span>
+              <span style={{ opacity: 0.5, marginTop: -20 }}>/</span>
+              <span style={{ opacity: 1 }}>7</span>
             </h1>
             <p>
-              A limited alcohol lifestyle. Followers of 6/7 never consume more
-              than six alcoholic drinks per seven days.
+              A limited alcohol lifestyle. Followers of <strong>6/7</strong>{' '}
+              never consume more than six alcoholic drinks per seven days.
             </p>
             <AppStores />
           </div>
         </section>
         <section>
           <div className="inner">
-            <h2 className="title">What is a drink?</h2>
+            <h2>What is a drink?</h2>
             <p>
               A pint of average strength beer, a mediumish glass of wine, a
               normal sized cocktail. Don't take the piss.
