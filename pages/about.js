@@ -30,8 +30,8 @@ export default function Home() {
             </p>
             <p>
               The app is really simple to use. It will start at six and count
-              down with each drink until it reaches zero. Every Thursday
-              afternoon it will reset back to six.
+              down with each drink until it hits zero. Every Thursday afternoon
+              it will reset back to six.
             </p>
             <p>
               The app is intentionally quite expensive (£10), the financial
