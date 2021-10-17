@@ -33,10 +33,6 @@ export default function Home() {
             <p>
               If you have a drinking problem then this is not the program for
               you. Seek professional support.{' '}
-              <strong>
-                Half the profits from the sale of this app go to addiction
-                charities.
-              </strong>
             </p>
             <div style={{ marginTop: 32 }}>
               <AppStoreIcons />
