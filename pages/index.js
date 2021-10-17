@@ -38,7 +38,7 @@ export default function Home() {
           <div className="inner">
             <h2>What is a drink?</h2>
             <p>
-              A pint of average strength beer, a mediumish glass of wine, a
+              A pint of average strength beer, a standard glass of wine, a
               normal sized cocktail. Don't take the piss.
             </p>
             <Link href="/about">Tell me more →</Link>
