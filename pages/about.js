@@ -26,16 +26,15 @@ export default function Home() {
             <h2>Tell me more</h2>
             <p>
               6/7 is a community of limited drinkers. We find six drinks per
-              week to be a good liberal limit. If you have a drinking problem
-              then this is not the program for you. Seek professional support.
+              week to be a good liberal limit. The app is really simple to use.
+              Every week it counts your drinks down from six to zero. It resets
+              on Thursday afternoons.
             </p>
             <p>
-              The app is really simple to use. Every week it counts your drinks
-              down from six to zero. It resets on Thursday afternoons.
-            </p>
-            <p>
+              If you have a drinking problem then this is not the program for
+              you. Seek professional support.{' '}
               <strong>
-                Half of the profits from the sale of this app go to addiction
+                Half the profits from the sale of this app go to addiction
                 charities.
               </strong>
             </p>
