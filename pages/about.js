@@ -34,11 +34,14 @@ export default function Home() {
               down from six to zero. It resets on Thursday afternoons.
             </p>
             <p>
-              The app is intentionally quite expensive (£10), the financial
-              commitment is designed to encourage people to stick with it.{' '}
-              <strong>Most of the profits go to addiction charities.</strong>
+              <strong>
+                Half of the profits from the sale of this app go to addiction
+                charities.
+              </strong>
             </p>
-            <AppStoreIcons />
+            <div style={{ marginTop: 32 }}>
+              <AppStoreIcons />
+            </div>
           </div>
         </div>
       </main>
