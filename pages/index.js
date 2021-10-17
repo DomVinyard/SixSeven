@@ -31,7 +31,9 @@ export default function Home() {
               A limited alcohol lifestyle. Followers of <strong>6/7</strong>{' '}
               never consume more than six alcoholic drinks per seven days.
             </p>
-            <AppStoreIcons />
+            <div>
+              <AppStoreIcons white />
+            </div>
           </div>
         </section>
         <section>

@@ -51,14 +51,14 @@ section {
 
 .inner {
   width: 500px;
-  max-width: 90%;
+  max-width: 80vw;
   margin: 0 auto;
   margin-top: -10vh;
 }
 
 .about-inner {
   width: 500px;
-  max-width: 90%;
+  max-width: 80vw;
   margin: 0 auto;
   /* margin-top: 10vh; */
 }
