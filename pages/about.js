@@ -30,10 +30,6 @@ export default function Home() {
               simple to use. Every week it counts your drinks down from six to
               zero. It resets on Thursday afternoons.
             </p>
-            <p>
-              If you have a drinking problem then this is not the program for
-              you. Seek professional support.{' '}
-            </p>
             <div style={{ marginTop: 32 }}>
               <AppStoreIcons />
             </div>
