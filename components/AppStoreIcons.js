@@ -10,13 +10,6 @@ export default function AppStoreIcons({ white = false }) {
           src={`/apple_store${white ? '_white' : ''}.png`}
         />
       </a>
-      {/* <a href={'about:blank'} target="_blank">
-        <img
-          alt="Google Play Store"
-          style={{ width: 130 }}
-          src="/google_store.png"
-        />
-      </a> */}
     </div>
   );
 }
