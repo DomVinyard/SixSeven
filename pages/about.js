@@ -27,8 +27,9 @@ export default function Home() {
             <p>
               6/7 is a community of responsible drinkers. We find six alcoholic
               drinks per week to be a good liberal limit. The app is really
-              simple to use. Every week it counts your drinks down from six to
-              zero. It resets on Thursday afternoons.
+              simple to use and costs less than a glass of wine. Every week it
+              counts your drinks down from six to zero. It resets on Thursday
+              afternoons.
             </p>
             <div style={{ marginTop: 32 }}>
               <AppStoreIcons />
