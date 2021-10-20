@@ -10,7 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
+      <div>
         <div
           style={{
             backgroundColor: '#fff',
@@ -26,17 +26,28 @@ export default function Home() {
             <h2>Tell me more</h2>
             <p>
               6/7 is a community of responsible drinkers. We find six alcoholic
-              drinks per week to be a good liberal limit. The app is really
-              simple to use and costs less than a glass of wine. Every week it
-              counts your drinks down from six to zero. It resets on Thursday
-              afternoons.
+              drinks per week to be a good liberal limit. If you regularly drink
+              more than this there are some great benefits to cutting back on
+              alcohol.
+              <ul style={{ paddingLeft: 22 }}>
+                <li>🎯 Weight loss</li>
+                <li>🛌 Improved sleep quality</li>
+                <li>⚡️ Increased energy</li>
+                <li>🧘‍♀️ Improved mental health</li>
+                <li>🧠 Improved brain function</li>
+                <li>🩺 Lower risk of diseases</li>
+              </ul>
+            </p>
+            <p>
+              The app helps you stay on track and costs less than a glass of
+              wine.
             </p>
             <div style={{ marginTop: 32 }}>
               <AppStoreIcons />
             </div>
           </div>
         </div>
-      </main>
+      </div>
     </div>
   );
 }
