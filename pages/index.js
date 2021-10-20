@@ -6,7 +6,11 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>6/7</title>
+        <title>Six/7</title>
+        <meta
+          name="description"
+          content="A community of responsible drinkers"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -23,12 +27,12 @@ export default function Home() {
                   marginRight: 4,
                 }}
               />{' '}
-              <span>6</span>
+              <span>Six</span>
               <span style={{ opacity: 0.5, marginTop: -20 }}>/</span>
               <span style={{ opacity: 1 }}>7</span>
             </h1>
             <p>
-              A limited alcohol lifestyle. Followers of <strong>6/7</strong>{' '}
+              A limited alcohol lifestyle. Followers of <strong>Six/7</strong>{' '}
               never consume more than six alcoholic drinks per seven days.
             </p>
             <div>

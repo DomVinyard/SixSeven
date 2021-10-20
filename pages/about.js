@@ -6,7 +6,11 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>6/7</title>
+        <title>Six/7</title>
+        <meta
+          name="description"
+          content="A community of responsible drinkers"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -19,6 +23,7 @@ export default function Home() {
             display: 'flex',
             alignItems: 'center',
             maxWidth: '100%',
+            padding: '1rem auto',
           }}
         >
           <div className="inner">
