@@ -30,10 +30,10 @@ export default function Home() {
             <Link href="/">← Back</Link>
             <h2>Tell me more</h2>
             <p>
-              6/7 is a community of responsible drinkers. We find six alcoholic
-              drinks per week to be a good liberal limit. If you regularly drink
-              more than this there are some great benefits to cutting back on
-              alcohol.
+              Six/7 is a community of responsible drinkers. We find six
+              alcoholic drinks per week to be a good liberal limit. If you
+              regularly drink more than this there are some great benefits to
+              cutting back on alcohol.
               <ul style={{ paddingLeft: 22 }}>
                 <li>🎯 Weight loss</li>
                 <li>🛌 Improved sleep quality</li>
